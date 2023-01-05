@@ -94,14 +94,19 @@ body {
   display: flex;
   flex-direction: row;
   gap: 50px;
+  fill: var(--color-gray);
 }
 
 .addres-link {
   color: var(--color-gray);
 }
 
+.addres:hover {
+  fill: var(--color-purple);
+}
+
 .addres-link:hover {
-  color: var(--color-purple);
+    color: var(--color-purple);
 }
 
 .addres-link:active {
@@ -348,9 +353,7 @@ button[type="button"]:hover {
   color: var(--color-white);
   cursor: pointer;
   box-shadow: 0px 2px 2px 0px #0000001f;
-
   box-shadow: 0px 1px 2px 0px #00000014;
-
   box-shadow: 0px 3px 1px 0px #0000001a;
 }
 

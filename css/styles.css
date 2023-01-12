@@ -93,11 +93,13 @@ body {
   margin-right: 15px;
   display: flex;
   flex-direction: row;
-  gap: 50px;
+  gap: 30px;
   fill: var(--color-gray);
 }
 
 .addres-link {
+  display: flex;
+  gap: 10px;
   color: var(--color-gray);
 }
 
@@ -115,7 +117,6 @@ body {
 
 .hero {
   height: 600px;
-  background-color: #2f303a;
   background-image: url("/goit-markup-hw-04/images/background-hero.jpg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -315,6 +316,7 @@ body {
 }
 
 .team-back-icon:hover {
+  cursor: pointer;
   background-color: var(--color-purple);
   fill: var(--color-white);
 }
@@ -508,6 +510,7 @@ button[type="button"]:focus {
 }
 
 .footer-back-icon:hover {
+  cursor: pointer;
   background-color: var(--color-purple);
 }
 
